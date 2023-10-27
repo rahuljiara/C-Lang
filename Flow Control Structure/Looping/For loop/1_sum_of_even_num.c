@@ -1,5 +1,5 @@
 /*
-    Create a program tocalculate the sum of 1st 50 even number.
+    Create a program to calculate the sum of 1st 50 even number.
 */
 
 #include <stdio.h>

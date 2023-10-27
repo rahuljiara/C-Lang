@@ -1,5 +1,5 @@
 /*
-    Create a program to find maximum number out of two number
+    Create a program to find maximum number out of three number
 
 */
 

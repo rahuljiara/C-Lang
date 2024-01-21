@@ -7,7 +7,7 @@
 void main()
 {
     int num = 0, sum = 0;
-    for (num; num <= 40; num++)
+    for (num; num <= 10; num++)
     {
         if (num % 2 != 0)
         {

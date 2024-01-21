@@ -1,19 +1,15 @@
-/*
-    Create a program to calculate the sum of 1st 50 even number.
-*/
 
 #include <stdio.h>
 
 void main()
 {
-    int num = 0, sum = 0;
-    for (num; num <= 100; num++)
-    {
-        if (num % 2 == 0)
-        {
-            sum = sum + num;
-            printf("%d \t",num);
-        }
+    int num = 1;
+    int sum = 0;
+    int userNum;
+    printf("Enter Number Up To You Wanted Odd Num \t");
+    scanf("%d",&userNum);
+    for(userNum;userNum>=num;userNum--){
+       sum = sum*userNum;
+       printf("%d",sum);
     }
-    printf("\n\n %d is the sum of 1st 50 even number\n", sum);
 }

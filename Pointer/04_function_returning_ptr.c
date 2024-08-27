@@ -1,25 +1,26 @@
-// C program to illustrate the concept of 
-// returning pointer from a function 
-#include <stdio.h> 
+// C program to illustrate the concept of
+// returning pointer from a function
+#include <stdio.h>
 
-// Function returning pointer 
-int* fun() 
-{ 
-	int A = 10; 
-    
-	return A; 
-} 
+// Function returning pointer
+int *fun(int a)
+{
+	printf("A \t \t: %d \n", a);
+}
 
-// Driver Code 
-int main() 
-{ 
-	// Declare a pointer 
-	int* p; 
+// Driver Code
+int main()
+{
+	int x = 20;
 
-	// Function call 
-	p = fun(); 
+	// Declare a pointer
+	int *p;
 
-	printf("%p\n", p); 
-	printf("%d\n", *p); 
-	return 0; 
-} 
+	// Store pointer function in pointer variable.
+	p = fun(x);
+
+	printf("Address Of Function \t: %p\n", p);
+	printf("Address Of X \t\t: %p\n", x);
+	printf("X \t \t: %d\n", x);
+	return 0;
+}
